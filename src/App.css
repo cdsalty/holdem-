@@ -18,9 +18,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*{
+  padding-top: 20px;
+}
 
+p{
+  font-size: 2rem;
+}
 .App-link {
   color: #61dafb;
+}
+.buttons{
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
@@ -31,3 +40,18 @@
     transform: rotate(360deg);
   }
 }
+
+.the-table{
+  background: #277714;
+  border-radius: 10px;
+  padding: 20px;
+  border: 10px solid yellow;
+  border-radius: 10%;
+ 
+}
+.card{
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 5px;
+}
+
